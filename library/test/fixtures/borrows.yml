@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idate: 2015-05-28
+  rdate: 2015-05-28
+  book_id: 
+  member_id: 
+
+two:
+  idate: 2015-05-28
+  rdate: 2015-05-28
+  book_id: 
+  member_id: 

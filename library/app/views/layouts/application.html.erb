@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<%=image_tag("images.jpg",  :alt=>"user", :class=>"round",  :width=>"1270px",:height=>"250px",:align=>"center")%>
+<%=image_tag("ROR.png",  :alt=>"user", :class=>"round",  :width=>"230px",:height=>"402px",:align=>"left")%>
+<div id="user_header">
+
+	
+
+
+
+
+
+
+<%= yield %>
+
+</body>
+</html>
